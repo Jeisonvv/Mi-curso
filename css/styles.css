@@ -3,8 +3,11 @@ body{
     background: #000;
     color: #fff;
 }
-.contec-img{
+.contec-header_img{
     width: 50px;
+}
+.img-main{
+    width: 100%;
 }
 .img-nav{
     width: 100%;
@@ -12,10 +15,12 @@ body{
 .title-h1{
     text-align: center;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
-.sudtitle{
+.subtitle{
     margin-left: 20px;
     margin-bottom: 5px;
+    margin-top: 5px;
     color: #374dae;
 }
 a{
@@ -27,6 +32,8 @@ a{
     display: flex;
     padding: 10px;
     margin-bottom: 5px;
+    position: sticky;
+    top: 0px;
 
 }
 .nav{
@@ -37,4 +44,18 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+.contec-img{
+    width: 70%;
+    margin: auto;
+    margin-top:15px ;
+    margin-bottom: 10px;
+}
+.conclucion{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #374dae;
+    padding: 10px;
 }
