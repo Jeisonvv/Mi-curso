@@ -12,16 +12,31 @@ body{
 .img-nav{
     width: 100%;
 }
-.title-h1{
+/*section*/
+.Modulo-Lectur{
+    box-sizing: border-box;
+    border: solid #051c79;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(to left, #051c79, #384da0);
+    text-align: center;
+}
+.title{
     text-align: center;
     margin-bottom: 10px;
     margin-top: 10px;
+    font-size: 2.5em;
 }
 .subtitle{
     margin-left: 20px;
     margin-bottom: 5px;
     margin-top: 5px;
-    color: #374dae;
+    color: #c61a23;
+    font-size: 2em;
+    text-align: left;
 }
 a{
     color: #e5db11;

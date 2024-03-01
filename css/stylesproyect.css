@@ -1,0 +1,73 @@
+body{
+    background: radial-gradient(#141414, #28292d);
+}
+/* Este es el estilo de las secciones de la pagina*/
+.article{
+    box-sizing: border-box;
+    border: solid #051c79;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(to left, #051c79, #384da0);
+    text-align: center;
+}
+/* El contenedor de las car */
+.container_cars{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+/* El estilo del h1 */
+.h1{
+    text-align: center;
+    margin: 20px;
+    font-size: 2em;
+}
+/*contenedor de la imagen el titulo y la descripcion la tarjeta con tada la inforacion*/
+.car{
+    margin: auto;
+    margin: 20PX;
+    padding: 20px;
+    border: solid #051c79;
+    text-align: center;
+    width: 150PX;
+    &:hover{
+        width: 200px;
+        box-shadow:0px 0px 30px #8ca0f1;
+        border: solid #e4e8f7;
+    }
+}
+/*images de la car*/
+.car-img{
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.agregaractividad{
+    display: flex;
+    flex-direction: column;
+}
+/*input y texarea*/
+.input{
+    width: 90%;
+    padding: 5px;
+    margin: 10px;
+    background: linear-gradient( #27387a, transparent);
+    border: none;
+    outline: none;
+    &:focus{
+        border-bottom: solid #9795ed;
+        background: linear-gradient(transparent, #27387a);
+    }
+    &::placeholder{
+        color: #fff;
+    }
+}
+.button{
+    width: 100px;
+    margin: auto;
+    border-radius: 20px;
+}
