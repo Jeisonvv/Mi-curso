@@ -90,6 +90,35 @@
                  </p>
             </article>
         </section>
+        <section class="Modulo-Lectur">
+            <h2 class="title">M1-L3</h2>
+            <H3 class="subtitle">DOM</H3>
+            <p>
+                El primer paso es la construcción del DOM (el cual entenderemos a profundidad en esta clase) a partir de un documento de HTML guardado en la nube. El DOM es una representación estructurada de una página web. Se parece a un árbol, donde cada etiqueta HTML es un nodo, incluyendo textos e imágenes. 
+            </p>
+            <div class="contec-img">
+                <img src="/access/dom.jpg" alt="arbol del dom" class="img-main">
+            </div>
+            <H3 class="subtitle">CSSOM</H3>
+            <P>
+                En segunda instancia se hace la construcción del CSSOM que es un modelo que representa los estilos asociados al DOM. El CSSOM es similar al DOM, pero se enfoca en el estilo de la página.
+            </P>
+            <div class="contec-img">
+                <img src="/access/CSSOM.jpg" alt="arbol del CSSOM" class="img-main">
+            </div>
+            <H3 class="subtitle">RENDER TRE</H3>
+            <P>
+                Lo siguiente es la creación del Render Tree, el cual es una combinación del DOM y el CSSOM que se enfoca únicamente en aquellos elementos del documento HTML que son visibles en la página. Este árbol representa todos los elementos visuales de la página y sus estilos, y es lo que el navegador utiliza para pintar la página en la pantalla
+            </P>
+            <H3 class="subtitle">LAYOUT</H3>
+            <P>
+                El layout de una página determina el tamaño del dispositivo de salida (viewport) dando así contexto a los estilos que dependen de él. Este viewport puede ser configurado dentro de la etiqueta <meta> donde podemos modificar sus medidas y la escala inicial de mi página. El layout es el cálculo de las posiciones y tamaños de los elementos en la página. Antes de pintar los elementos, el navegador necesita saber dónde y qué tan grandes deben ser.
+            </P>
+            <h3 class="subtitle">SELECTORES</h3>
+            <P>
+                Frecuentemente nos referimos bajo el nombre de “selector” a aquellos métodos y propiedades que nos permiten seleccionar elementos específicos de una página web, sin necesidad de afectar la naturaleza y el comportamiento de otros elementos del DOM. se puede por id,clases,etiquetas
+            </P>
+        </section>
        
     </main>
 </body>
