@@ -16,3 +16,22 @@ const arrayNum = [1,2,3,4,5,6,7,8,9]
 const numPar = arrayNum.filter((num)=> num % 2 == 0)
 console.log('resultsdo numPar')
 console.log(numPar)
+//en este ejercicio vamos hacer una objeto para entender otras cosas del arrow 
+const persona = {
+    nombre: 'jeison',
+    amigos: ['omar','arevalo','dairon','francy','jeimmy'],
+    // aqui utilizamos una funcion narmal para crear un metodo 
+    saludar: function (){
+        return `Hola como estas ${this.amigos[0]}, sabes donde esta ${this.amigos[3]}`
+    },
+    //aqui utilizamos un arrow pero en este caso no funsiona el this.
+    despedida: ()=>{
+        return 'hasta luego saludes a' + this.amigos[4]
+    }
+
+}
+console.log('aqui nos da respuesta al metodo saludar del objeto persona')
+console.log(persona.saludar())
+console.log('Aqui nos da respuesta al metodo despedida y nos debe dar undefine ya que no ensirve el this.')
+console.log('')
+console.log(persona.despedida())
