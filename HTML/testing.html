@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>testing</title>
+</head>
+<body>
+    <header class="header">
+        <div class="contec-header_img">
+            <a href=""><img src="/access/logo en linea.png" alt="" class="img-nav"></a>
+        </div>
+        <nav class="nav">
+            <ul class="header-ul">
+                <li><a href="/HTML/Html.html" >HTML</a></li>
+                <li>css</li>
+                <li><a href="/HTML/javascript.html">JAVASCRIPT</a></li>
+                <li><a href="/proyecto/proyecto.html">PROJECT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="Modulo">
+            <h1 class="title">TESTING</h1>
+            <P>
+                El  testing  es un área que se enfoca en evaluar el comportamiento del código de forma controlada. Los tests son ejecutados de forma aislada.
+            </P>
+            <ARticle class="Modulo-Lectur">
+                <h3 class="subtitle">Testing Driven Development</h3>
+                <P>
+                    Una de las metodologías de desarrollo de software más populares es conocida como Test Driven Development (TDD). Por lo general, a la hora de desarrollar el código nos enfocamos en que este resuelva un problema. Una vez desarrollado, generamos un test asociado para corroborar que siempre funcione.
+                    El TDD apunta a todo lo contrario. Esta metodología nos dice que primero debemos desarrollar un test que facilite la solución deun problema. Y luego, hay que comenzar a desarrollar el código a partir de los tests. <a href="https://www.hiberus.com/crecemos-contigo/bdd-behavior-driven-developement/" target="_blank">MAS INFO</a>
+                </P> 
+                <h3 class="subtitle">¿Qué es un framework?</h3>
+                <p>
+                    Cuando desarrollamos código nos encontraremos algunas herramientas denominadas frameworks (marco de trabajo). Los frameworks son tecnologías ya desarrolladas (con código, ¡claro!) que nos permitirán desarrollar una aplicación de manera más sencilla y eficiente.
+                </p>
+                <div class="contec-img">
+                    <img src="/access/testing.jpg" alt="" class="img-main">
+                </div>        
+            </ARticle>
+            <article class="Modulo-Lectur">
+                <h3 class="subtitle">JASMINE</h3>
+                 <h4 class="title">Características de Jasmine</h4>
+                 <ul class="lista">
+                    <li class="lista_iten">
+                        Claridad en sintaxis: a diferencia de otras tecnologías de testing, Jasmine utiliza una sintaxis clara y descriptiva, incluso para aquellos que no están directamente involucrados en el desarrollo.
+                    </li>
+                    <li class="lista_iten">
+                        Suite y especificación: nos permite organizar los tests con un orden de jerarquía ("suites" y "especificaciones"), proporcionando una estructura lógica para su ejecución.
+                    </li>
+                    <li class="lista_iten">
+                        Mocks: facilita la creación de contenido falso o de prueba (mockeo) para simular el comportamiento de la aplicación como si fuera tiempo real.
+                    </li>
+                 </ul>
+                 <h2 class="subtitle">Browser Runner</h2>
+                 <p>
+                    ¿Sabías que Jasmine cuenta con una dependencia que nos permite visualizar los resultados de los tests de una forma visualmente amigable? Esta dependencia se llama browser runner. Para instalar la dependencia debemos ejecutar los siguientes comandos.
+                 </p>
+                 <div class="contec-img">
+                    <img src="/access/carbon.png" alt="" class="img-main">
+                </div> 
+                <p>
+                    Estos comandos crearán un archivo de configuración llamado jasmine-browser.json dentro de la carpeta support. Se genera la configuración de forma automática.
+                </p>
+                <div class="contec-img">
+                    <img src="/access/carbon2.png" alt="" class="img-main">
+                </div>
+                <p>
+                    Luego ejecutaremos el siguiente comando para correr los tests en conjunto con esta nueva configuración. Lo que hará será inicializar un servidor local al que podremos acceder con la dirección http://localhost:8888.
+                </p>
+
+            </article>
+            <article class="Modulo-Lectur">
+                <h2 class="subtitle">Expect & Matchers</h2>
+                <p>
+                    Para que podamos crear algunos tests es necesario que antes definamos dos elementos claves que son los que nos ayudarán a desarrollar esos tests luego... <a href="https://jasmine.github.io/api/edge/matchers.html">MAS INFO Matchers</a>
+                </p>
+                <div class="contec-img">
+                    <img src="/access/Template de PPTs (2).png" alt="" class="img-main">
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

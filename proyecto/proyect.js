@@ -32,3 +32,4 @@ newActivity.createActivity('nadar','ejercita todos los musculos del cuerpo','htt
 newActivity.deleteActivity(1)
 
 console.log(newActivity.getAllActivities())
+const button = document.getElementById('nombre_actividad')

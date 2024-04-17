@@ -1,0 +1,61 @@
+.body{
+    background: #181818;
+}
+.coctec-car{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.car{
+    height: 250px;
+    width: 200px;
+    background-color: #101010;
+    border-radius: 10%;
+    box-shadow: 16px 14px 10px #000008;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &::after{
+        content: "";
+        position: absolute;
+        height: 240px;
+        width: 190px;
+        border-radius: 10%;
+        background: url(https://th.bing.com/th/id/OIP.wJNsy6tdK23_FygIVHc_eQHaE7?rs=1&pid=ImgDetMain) center center;
+        background-size: cover;
+        
+
+    }
+   &:hover{
+    &::before{
+        content: "";
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        background: conic-gradient(red 20deg, transparent 120deg);
+        animation: rotar 2s linear infinite;
+    }
+    
+   }
+
+}
+.title{
+    color: #000008;
+    z-index: 50;
+    background-color: #1f06c0;
+    text-align: center;
+    padding: 5px;
+}
+
+@keyframes rotar{
+    font{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}

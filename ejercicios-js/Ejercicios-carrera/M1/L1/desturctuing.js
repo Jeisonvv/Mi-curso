@@ -27,7 +27,7 @@ console.log(dataUser(jeison))
 const omar = ['hola','omar','billar','adios'];
 function returnArray (array){
     //aqui destructuramos por el orden en el que esta los datos en el array si hay cuatro datos y nesecitamos el ultimo tenemos que poner los todos en la destructuracion para poder utilizarlo.
-    const [saludo,nombre,billar,despedida] = omar;
-    return `${saludo} mi nombre es ${nombre} y me gusta el ${billar}`
+    const [saludo,nombre,] = omar;
+    return `${saludo} mi nombre es ${nombre} y me gusta el`
 }
 console.log(returnArray(omar))

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>ejercicio</title>
+    <style>
+        .form{
+            display: flex;
+            flex-direction: column;
+        }
+        .input{
+            width: 90%;
+            padding: 5px;
+            color: #fff;
+            margin: 10px;
+            background: linear-gradient( #27387a, transparent);
+            border: none;
+            outline: none;
+            &:focus{
+        border-bottom: solid #9795ed;
+        background: linear-gradient(transparent, #27387a);
+            }
+            &::placeholder{
+        color: #fff;
+            }
+        }
+        .button{
+            width: 100px;
+            margin: auto;
+            border-radius: 20px;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="contec-header_img">
+            <a href="/HTML/index.html"><img src="/access/logo en linea.png" alt="" class="img-nav"></a>
+        </div>
+        <nav class="nav">
+            <ul class="header-ul">
+                <li><a href="/HTML/html.html">HTML</a></li>
+                <li>css</li>
+                <li><a href="/HTML/javascript.html">JAVASCRIPT</a></li>
+                <li><a href="/proyecto/proyecto.html">PROJECT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="title">EJERCICO PARA PRACTICAR</h1>
+    <p>vamos a prticar como tomar el volor de un input y con el generar algo en el dom</p>
+    <form class="form">
+        <input type="text" placeholder="escriba su nombre" id="inputname" class="input" >
+        <textarea name="" id="description" cols="30" rows="10" class="input" placeholder="escribe algo sobre ti"></textarea>
+        <button type="button" class="button" id="buttonEnviarInfo">Guardar</button>
+    </form>  
+
+    
+   
+    
+    <div id="date_user" class="Modulo-Lectur contecCarts">
+
+    </div>
+    <a href="events.html">ejercico numero 1</a>
+    
+    <script src="ejercicio.js"></script>
+</body>
+</html>

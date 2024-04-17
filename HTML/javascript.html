@@ -15,10 +15,25 @@
         </div>
         <nav class="nav">
             <ul class="header-ul">
-                <li><a href="/HTML/html.html">HTML</a></li>
+                <li>
+                    <a href="/HTML/html.html">HTML</a>
+                </li>
                 <li>css</li>
-                <li><a href="/HTML/javascript.html">JAVASCRIPT</a></li>
-                <li><a href="/proyecto/proyecto.html">PROJECT</a></li>
+                <li class="menu-li">
+                    <span>JAVASCRIPT</span>
+                    <ul class="subMenu">
+                        <li><a href="/HTML/javascript.html">M1</a></li>
+                        <li><a href="/HTML/M2.html">M2</li>
+                        <li><a href="">567273</li>
+                        <li><a href="">M4</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/HTML/testing.html">TESTING</a>
+                </li>
+                <li>
+                    <a href="/proyecto/proyecto.html">PROJECT</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -118,7 +133,26 @@
             <P>
                 Frecuentemente nos referimos bajo el nombre de “selector” a aquellos métodos y propiedades que nos permiten seleccionar elementos específicos de una página web, sin necesidad de afectar la naturaleza y el comportamiento de otros elementos del DOM. se puede por id,clases,etiquetas
             </P>
+            <h3 class="subtitle">Eventos</h3>
+            <p>
+                Hasta el momento aprendimos a seleccionar elementos del DOM. Ahora es el momento de dar un paso más adelante y descubrir cómo podemos interactuar con esos elementos que ya seleccionamos. Estas interacciones/acciones se denominan eventos. Un ejemplo sencillo de analizar es por ejemplo cuando le damos click en la pantalla y algo sucede. También podría ser un doble click. Otro evento muy común es el de hacer scroll sobre un elemento, o presionar una tecla, o llenar un campo de texto.
+            </p>
+            <h3 class="subtitle">Event listener</h3>
+            <p>
+                De la misma forma que podemos asociar un elemento del DOM con un evento, también vamos a poder asociarlo con un event listener. Estos son simplemente métodos que se complementan con los eventos. Estas funciones son las disparadoras de una lógica al momento de realizarse un evento.
+            </p>
+            
+            <h3 class="subtitle">ejemplo</h3>
+            <p>
+                    Supongamos que tenemos un botón en nuestro DOM con el que podemos iniciar sesión. Vamos a acceder a este botón desde nuestro código mediante un selector. Luego vamos a crear una función que nos permita iniciar sesión. Por último, vamos a agregar un evento en ese botón para que, al hacerle click, se ejecute la función de inicio de sesión. <a href="/ejercicios-js/Ejercicios-carrera/M1/L3/events.html">EJECICIO DE EVENTOS</a>
+            </p> 
+            <div class="contec-img">
+                <img src="/access/eventos-ejemplo.png" alt="arbol del CSSOM" class="img-main">
+            </div>
         </section>
+        <SEction class="Modulo-Lectur">
+
+        </SEction>
        
     </main>
 </body>
